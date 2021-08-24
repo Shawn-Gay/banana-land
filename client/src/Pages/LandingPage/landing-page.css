@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+@media (max-width: 768px) {
+  .landing-page-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .landing-page-container img {
+    width: 176px;
+    height: 176px;
+  }
+  .landing-page-container .lp-footer-container {
+    position: absolute;
+    bottom: 2rem;
+  }
+}
+
+.landing-page-container {
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(163.19% 93.36% at 50% 46.95%, #28282c 0%, #212125 34.38%, #2C2C30 61.98%, #1A1A1D 100%);
+}
+
+.landing-page-container h1 {
+  font-family: "Spicy Rice", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.75rem;
+  margin: 0;
+}
+
+.landing-page-container h1:nth-child(1) {
+  color: #D79922;
+}
+
+.landing-page-container h1:nth-child(2) {
+  color: #EFE2BA;
+}
+
+.landing-page-container h1:nth-child(3) {
+  color: #FFFFFF;
+}
+
+.landing-page-container h1:nth-child(4) {
+  color: #FFFFFF8C;
+}
+
+.landing-page-container h1:nth-child(5) {
+  color: #FFFFFF26;
+}
+/*# sourceMappingURL=landing-page.css.map */
